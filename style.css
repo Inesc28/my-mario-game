@@ -1,0 +1,46 @@
+:root {
+  font-family: 'SuperMarioFont', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-image: url(/sprites/background.gif);
+  background-repeat: repeat-x;
+  
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'SuperMarioFont';
+  src: url('/fonts/SuperMarioBros-ov7d.ttf') format('truetype');
+}
+
+.title {
+  width: 30%;
+  margin-left: 35%;
+}
+
+.start {
+  border: none;
+  border-radius: 50px;
+  margin-bottom: 20%;
+  margin-left: 40%;
+  width: 20%;
+  padding: 20px;
+  font-size: 40px;
+  font-family: 'SuperMarioFont', sans-serif;
+  background-color: red;
+  transition: background color 0.3 ease, margin-top 0.5 ease-in-out, box-shadow 0.5 ease;
+}
+
+.start:hover {
+  background-color: rgb(0, 215, 47);
+  margin-top: 5px;
+  box-shadow: 0 15px 20px rgba(255, 255, 255, 0.4);
+}
+
